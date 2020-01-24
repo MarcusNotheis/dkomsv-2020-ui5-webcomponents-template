@@ -92,3 +92,5 @@ const ProductsChart = () => {
 
 export default ProductsChart;
 ```
+
+### [Step #8 - Detail Page Table](./Step8_Products-Table.md)

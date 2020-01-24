@@ -108,3 +108,4 @@ What is an admin UI without a profile area? We will create one for our smart sto
       </div>
     </ui5-popover>
 ```
+### [Step #5 - Theme and Content Density Switch](./Step5_Theme_Compact_Switch.md)

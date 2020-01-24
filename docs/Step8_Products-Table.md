@@ -189,3 +189,5 @@ const ProductsTable = () => {
 export default ProductsTable;
 
 ```
+
+### [Step #9 - Detail Page Employee Cards](./Step9_EmployeeCards.md)

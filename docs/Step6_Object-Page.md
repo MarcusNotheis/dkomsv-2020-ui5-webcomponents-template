@@ -88,3 +88,5 @@ const StoreDetail = () => {
   );
 };
 ```
+
+### [Step #7 - Detail Page Charts](./Step7_Chart-Components.md)

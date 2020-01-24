@@ -61,3 +61,5 @@ You can notice that we set a custom attribute `data-theme-id` that will help us 
 - Fiori 3 Dark - `sap_fiori_3_dark`
 - Belize - `sap_belize`
 - Belize HCB - `sap_belize_hcb`
+
+### [Step #6 - Detail Page](./Step6_Object-Page.md)

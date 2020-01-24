@@ -20,7 +20,7 @@ In order to get started, we would recommend to generate a new repository based o
 As an alternative, you can also clone this repository or download it as zip file.
 ![](./docs/CloneOrDownload.png?raw=true "Clone or Download")
 
-In case you don't want do use that skelton, you can also start from scratch:
+In case you don't want do use that skeleton, you can also start from scratch:
 ```sh
 npx create-react-app smart-store-app --template @ui5/webcomponents-react
 cd smart-store-app
