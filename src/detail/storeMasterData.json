@@ -1,0 +1,16 @@
+{
+  "storeId": 1,
+  "storeName": "New York",
+  "storeType": "Flagship Store",
+  "address": "767 5th Ave, New York",
+  "storeManager": "John Doe",
+  "revenue": "$9.4m",
+  "openingHours": {
+    "Monday": "08:00AM - 10:00PM",
+    "Tuesday": "08:00AM - 10:00PM",
+    "Wednesday": "08:00AM - 10:00PM",
+    "Thursday": "08:00AM - 10:00PM",
+    "Friday": "08:00AM - 10:00PM",
+    "Saturday": "08:00AM - 10:00PM"
+  }
+}
