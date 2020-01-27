@@ -14,7 +14,7 @@ In this page we will navigate to a details of a store defined in the next steps.
 
   ```js
   ...
-   <ui5-list separators="Inner" class="card-content-child" ref={storesListRef}>
+   <ui5-list separators="Inner" className="card-content-child" ref={storesListRef}>
    ...
   ```
 
