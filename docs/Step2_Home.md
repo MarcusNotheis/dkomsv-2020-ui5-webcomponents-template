@@ -29,7 +29,15 @@ Add a `ui5-title` to the page with heading level 3 and "Featured" text
   };
 ```
 
-3. Now, let's add the `ui5-card`. We will also use `ui5-list` (List) and `ui5-li` (StandardListItem) for the `ui5-card` content. 
+3. In this step we will use some [data](https://github.com/MarcusNotheis/dkomsv-2020-ui5-webcomponents/blob/master/src/home/data.json) that will help us generate most of the components in our view.
+
+To use the data we need to import it.
+
+```js
+  import data from "./data.json";
+```
+
+4. Now, let's add the `ui5-card`. We will also use `ui5-list` (List) and `ui5-li` (StandardListItem) for the `ui5-card` content. 
 You can get familiar with the API of those components - [Card API](https://sap.github.io/ui5-webcomponents/playground/components/Card/) and [List API](https://sap.github.io/ui5-webcomponents/playground/components/List/). What is going below?
 We are just using the API of the UI5 WebComponents ("heading", "subtitle" and "status") and the JSX syntax to map the data and the cards will render nicely.
 
@@ -62,13 +70,20 @@ We are just using the API of the UI5 WebComponents ("heading", "subtitle" and "s
   </div>
 ```
 
-4. The layouting and ordering of the cards is responsibility of the app developer. To help you focus on the work with web components we created the needed layouting in `styles.css` file next to `index.jsx`. Nothing magical, we make use of `display:flex` for the layouting and setting some `min-width` to the `ui5-card`.
+5. The layouting and ordering of the cards is responsibility of the app developer. To help you focus on the work with web components we created the needed layouting in `styles.css` file in the root directory. Nothing magical, we make use of `display:flex` for the layouting and setting some `min-width` to the `ui5-card`.
 
-Import the css file by calling:
+6. You can copy the rest of the sections in the `Home` component from [Sources of Smart Store](https://github.com/MarcusNotheis/dkomsv-2020-ui5-webcomponents/commit/494cbf1292fba2f062aa35ea3809b1cbcd967edf#diff-c3d9344248f0641042fbb1ae7eab7937R38-R180). Make sure you have imported all of the ui5 web components you have used in your sources.
+
+Check list of used components [here](https://github.com/MarcusNotheis/dkomsv-2020-ui5-webcomponents/commit/494cbf1292fba2f062aa35ea3809b1cbcd967edf#diff-c3d9344248f0641042fbb1ae7eab7937R3-R8)
+
+7. You can notice that almost all icons on the page are missing. To resolve that problem you need to import all the icons you have used in your application.
+
+To import an icon you need to call:
+
 ```js
-import "./styles.css"
+  import "@ui5/webcomponents-icons/dist/icons/__icon_name__"
 ```
 
-9. You can copy the rest of the sections in the `Home` component from [Sources of Smart Store (Home.js)](https://github.com/ilhan007/ui5con-app/blob/master/src/home/Home.js), but don`t forget to copy all the UI5 components imports from the [Sources of Smart Store (App.js)](https://github.com/ilhan007/ui5con-app/blob/master/src/App.js) as some of them are used in these cards.
+List of icons that are used in the home components - [click](https://github.com/MarcusNotheis/dkomsv-2020-ui5-webcomponents/commit/494cbf1292fba2f062aa35ea3809b1cbcd967edf#diff-c3d9344248f0641042fbb1ae7eab7937R10-R20)
 
 ### [Step #3 - Events and Routing](./Step3_Events_and_Routing.md)
