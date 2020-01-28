@@ -14,9 +14,9 @@ import { AnalyticalTable } from '@ui5/webcomponents-react';
 ```
 
 The `AnalyticalTable` Component has two required props: `columns` and `data`.
-The `data` prop is accepting in array containing the row data, so we can use our `products.json` for that.
+The `data` prop is accepting an array containing the row data, so we can use our `products.json` for that.
 In order to configure the visible columns, we have to create a `columns` array which is defining the behaviour of the columns.
-Each entry in the `columns` array must have a `Header` property (can be a string our a React Component), and and `accessor`.
+Each entry in the `columns` array must have a `Header` property (can be a string or a React Component) and an `accessor`.
 The `accessor` is used for accessing the data out of each entry of the `data` array.
 
 So now let's add our table:
@@ -83,7 +83,7 @@ import products from './products';
 Now, lets use the custom `Cell` renderer to adjust the rendering of our `inStock` products.
 You can pass any React component to a cell and the `AnalyticalTable` will inject some props into this component.
 If you need the current value of the cell, you can find it in the `value` attribute of the `cell` prop.
-Let define that we will show a `ObjectStatus` with an `Error` state in case there are less than 10 products available and a `Warning` status in case there are less than 20 products available.
+Lets define that we will show a `ObjectStatus` with an `Error` state in case there are less than 10 products available and a `Warning` status in case there are less than 20 products available.
 If we have more products in stock everything is good.
 In addition to that, we will make the `inStock` cell right-aligned for better readability by using the `hAlign` attribute. Do not forget to add the `TextAlign` import to `@ui5/webcomponents-react`.
 
