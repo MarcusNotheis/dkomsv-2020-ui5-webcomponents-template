@@ -17,7 +17,7 @@ What is an admin UI without a profile area? We will create one for our smart sto
     </ui5-popover>
   ```
 
-  - We need will need two refs to open the popover, a ref to the shellbar and the popover itself.
+  - We will need two refs to open the popover, a ref to the shellbar and the popover itself.
 
  ```js
   const AppBar = () => {
@@ -63,7 +63,7 @@ What is an admin UI without a profile area? We will create one for our smart sto
       </div>
 ```
 
-  - The content of the `ui5-popover` is user defined. We will fill some random content in order to demontrate some of the features of the ui5 web components but feel free to add something from your side as well.
+  - The content of the `ui5-popover` is user defined. We will fill some random content in order to demonstrate some of the features of the ui5 web components but feel free to add something from your side as well.
 
 
 ```html
