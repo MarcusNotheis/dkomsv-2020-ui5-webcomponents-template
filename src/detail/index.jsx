@@ -9,6 +9,7 @@ import ProductsTable from './table';
 
 const StoreDetail = () => {
   // TODO Your code here
+  return null;
 };
 
 export default StoreDetail;
