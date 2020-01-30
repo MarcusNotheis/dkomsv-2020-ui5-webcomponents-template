@@ -20,11 +20,9 @@ In order to get started, we would recommend to generate a new repository based o
 As an alternative, you can also clone this repository or download it as zip file.
 ![](./docs/CloneOrDownload.png?raw=true "Clone or Download")
 
-In case you don't want do use that skeleton, you can also start from scratch:
-```sh
-npx create-react-app smart-store-app --template @ui5/webcomponents-react
-cd smart-store-app
-npm install @ui5/webcomponents-react-charts react-router-dom
+After having downloaded the repository template to your computer, open the corresponding folder and run the following scripts:
+```bash
+npm install
 npm run start
 ```
 
