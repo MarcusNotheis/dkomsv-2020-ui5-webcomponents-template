@@ -10,13 +10,9 @@ In this page we will navigate to a details of a store defined in the next steps.
     const Home = (props) => {
       const storesListRef = React.createRef();
   ```
-  - We need to assign that ref in the `jsx` of our components. Lets add it to the first list of items in the list card.
+  - We need to assign that ref in the `jsx` of our components. Lets add it to the following list:
 
-  ```js
-  ...
-   <ui5-list separators="Inner" className="card-content-child" ref={storesListRef}>
-   ...
-  ```
+![](./Step3.png?raw=true)
 
   - Attach a listener to the `itemPress` event of the `ui5-list` by calling `addEventListener` API.
 
